@@ -1,0 +1,83 @@
+/* Basic Reset */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Flex Rules */
+
+.container{
+  display: block;
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Site Styles */
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+}
+
+/* Hero Section */
+
+.navbar{
+  position: relative;
+}
+
+.logo{
+  position: absolute;
+  max-width: 15%;
+  margin: 5%;
+}
+
+.section{
+  min-height: 50vh;
+  color: #2980b9;
+}
+
+.section:nth-child(2){
+  background: #2980b9;
+  color:#fff;
+}
+
+
+.heroTitle{
+  font-size:8rem;
+  margin-top:5%;
+  text-shadow: 5px 5px 10px #323232;
+}
+.heroSubtitle, .heroContent {
+  margin: 5% 0;
+}
+
+.heroBtn{
+background: none;
+color: inherit;
+border: solid 2px #2980b9;
+}
+
+.section:nth-child(2) .heroBtn {
+  border: solid 2px #fff;
+}
