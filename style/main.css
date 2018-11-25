@@ -22,8 +22,6 @@ img {
   height: auto;
 }
 
-/* Flex Rules */
-
 .container{
   display: block;
   text-align: center;
@@ -51,7 +49,6 @@ h1{
   max-width: 15%;
   margin: 5%;
 }
-
 .section{
   min-height: 50vh;
   color: #2980b9;
@@ -61,7 +58,6 @@ h1{
   background: #2980b9;
   color:#fff;
 }
-
 
 .heroTitle{
   font-size:8rem;
@@ -80,4 +76,33 @@ border: solid 2px #2980b9;
 
 .section:nth-child(2) .heroBtn {
   border: solid 2px #fff;
+}
+
+@media screen and (min-width:768px) {
+  .logo {
+    width: 10%;
+  }
+
+  .section {
+    min-height: 40vh;
+  }
+
+  .section:nth-child(2) {
+    min-height:60vh;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .logo{
+    width: 7%;
+  }
+  .section {
+    width:50%;
+    height:100vh;
+    float: left;
+  }
+
+  .section:nth-child(2) {
+    width:50%;
+  }
 }
