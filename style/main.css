@@ -116,6 +116,18 @@ h1{
 
   .heroTitle {
     font-size: 8rem;
+    padding-top: 5%;
+  }
+  
+  .heroSubtitle, .heroContent {
+  margin: 5% 0;
+}
+  
+  .heroSubTitle{
+    font-size: 1.5rem;
+  }
+  .heroContent, .heroBtn{
+    font-size: 1rem;
   }
 }
 
