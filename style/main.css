@@ -54,12 +54,12 @@ h1{
   margin: 5%;
 }
 .section{
-  min-height: 45vh;
+  min-height: 40vh;
   color: #2980b9;
 }
 
 .section:nth-child(2){
-  min-height: 50vh;
+  min-height: 60vh;
   background: #2980b9;
   color:#fff;
 }
