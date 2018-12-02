@@ -35,7 +35,7 @@ a {
 /* Site Styles */
 
 body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 h1{
@@ -54,33 +54,46 @@ h1{
   margin: 5%;
 }
 .section{
-  min-height: 50vh;
+  min-height: 40vh;
   color: #2980b9;
 }
 
 .section:nth-child(2){
+  min-height: 60vh;
   background: #2980b9;
   color:#fff;
 }
 
 .heroTitle{
-  font-size:8rem;
+  font-size:3.5rem;
   margin-top:5%;
-  text-shadow: 5px 5px 10px #323232;
+  color: #fff;
+  text-shadow: 0px 0px 12px #303030;
 }
+
+.section:nth-child(2) .heroTitle {
+  color:#2980b9;
+}
+
 .heroSubtitle, .heroContent {
   margin: 5% 0;
 }
 
-.heroBtn{
-background: none;
-padding: 5px 10px;
-color: inherit;
-border: solid 2px #2980b9;
+.heroSubTitle {
+  font-size: 1rem;
+  margin-bottom: 2%;
 }
 
-.section:nth-child(2) .heroBtn {
-  border: solid 2px #fff;
+.heroContent, .heroBtn {
+  font-size: .75rem;
+}
+
+.heroBtn{
+  background: none;
+  padding: 5px 20px;
+  color: inherit;
+  border-radius: 25px;
+  box-shadow: 0px 0px 12px #303030;
 }
 
 @media screen and (min-width:768px) {
@@ -100,11 +113,15 @@ border: solid 2px #2980b9;
   .section:nth-child(2) {
     min-height:60vh;
   }
+
+  .heroTitle {
+    font-size: 8rem;
+  }
 }
 
 @media screen and (min-width:1024px) {
   .logo{
-    width: 7%;
+    width: 5%;
   }
 
   .section {
