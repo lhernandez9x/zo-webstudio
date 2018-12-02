@@ -54,19 +54,20 @@ h1{
   margin: 5%;
 }
 .section{
-  min-height: 40vh;
+  min-height: 45vh;
   color: #2980b9;
 }
 
 .section:nth-child(2){
-  min-height: 60vh;
+  min-height: 50vh;
   background: #2980b9;
   color:#fff;
 }
 
 .heroTitle{
-  font-size:3.5rem;
+  font-size:4.5rem;
   margin-top:5%;
+  padding-top:15%;
   color: #fff;
   text-shadow: 0px 0px 12px #303030;
 }
@@ -76,12 +77,11 @@ h1{
 }
 
 .heroSubtitle, .heroContent {
-  margin: 5% 0;
+  margin: 10% 0;
 }
 
 .heroSubTitle {
   font-size: 1rem;
-  margin-bottom: 2%;
 }
 
 .heroContent, .heroBtn {
